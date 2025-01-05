@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/create.css">
+</head>
+<body>
+    <!-- Start Content Home Section -->
+     <main class="container">
+        <div class="row mt-4 pt-4">
+            <div class="col-md-6">
+                <img src="img/56f58c5bbae6320e1aa5d36445fd722b.jpg" class="w-75"> 
+            </div>
+            <div class="col-md-6">
+                <h2>Create Account</h2>
+                <h6>Go ahead and sign up, let everyone know <br> how awesome you are!</h6>
+                <p id="message"></p>
+                <form action="register.html" method="post" class="d-flex flex-column justify-content-center" onsubmit="return demo()">
+                    <input type="text" placeholder="Username" id="user" name="name" class="form-control mb-3">
+                    <input type="text" placeholder="Email" id="mail" name="email" class="form-control mb-3">
+                    <input type="password" placeholder="Password" id="pass" name="password" class="form-control mb-3">
+                    <input type="password" placeholder="Confirm Password" id="confirm" name="confirm password" class="form-control mb-3">
+                    <input type="submit" value="Create Account" class="btn btn-primary form-control">
+                </form>
+            </div>
+        </div>
+     </main>
+    <!-- End Content Home Section -->
+<!-- jquery js -->
+<script src="js/jquery.slim.min.js"></script> 
+<!-- popper js  -->
+<script src="js/popper.min.js"></script> 
+<!-- bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- main js -->
+<script src="js/main.js"></script>   
+</body>
+</html>

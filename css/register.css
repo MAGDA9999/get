@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e6e6e6;
+}
+p{
+    color: #3c2b75;
+    font-weight: 600;
+}
